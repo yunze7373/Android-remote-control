@@ -12,7 +12,7 @@ def create_devices_file(file_path="devices.txt"):
         print(f"设备列表文件 {file_path} 不存在，正在创建...")
         with open(file_path, "w", encoding="utf-8") as file:
             file.write("# 格式: IP,设备名称\n")
-            file.write("192.168.31.155:5555,OnePlus8\n")  # 示例设备
+            file.write("192.168.1.100:5555,Example\n")  # 示例设备
         print(f"文件已创建。请修改 {file_path} 文件以添加更多设备。\n")
 
 
